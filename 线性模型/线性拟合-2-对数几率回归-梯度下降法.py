@@ -1,3 +1,4 @@
+# 本例没有做硬性预测，硬性预测在后面的牛顿法会体现
 import numpy as np
 def pro_data():
     m=150
