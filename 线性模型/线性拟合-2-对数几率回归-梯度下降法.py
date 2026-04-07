@@ -33,7 +33,7 @@ class LogisticRegressionGD:
             p=self.sigmoid(z)
             erro=p-y
             g=x1.T@erro
-            g_ave=g/m
+            g_ave=g/m#这里计算了平均梯度
             self.w=self.w-self.l*g_ave
     def predict(self,x):
         self.x=x
